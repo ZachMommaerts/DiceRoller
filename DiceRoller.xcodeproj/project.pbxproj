@@ -11,6 +11,8 @@
 		41436C1A2B9FEE1300B7CAC1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41436C192B9FEE1300B7CAC1 /* ContentView.swift */; };
 		41436C1C2B9FEE1500B7CAC1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 41436C1B2B9FEE1500B7CAC1 /* Assets.xcassets */; };
 		41436C1F2B9FEE1500B7CAC1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 41436C1E2B9FEE1500B7CAC1 /* Preview Assets.xcassets */; };
+		41436C262B9FFF6A00B7CAC1 /* DiceRoll.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41436C252B9FFF6A00B7CAC1 /* DiceRoll.swift */; };
+		417FC6422BA127AD005FEE75 /* IntFloatConverter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 417FC6412BA127AD005FEE75 /* IntFloatConverter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		41436C192B9FEE1300B7CAC1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		41436C1B2B9FEE1500B7CAC1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		41436C1E2B9FEE1500B7CAC1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		41436C252B9FFF6A00B7CAC1 /* DiceRoll.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiceRoll.swift; sourceTree = "<group>"; };
+		417FC6412BA127AD005FEE75 /* IntFloatConverter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntFloatConverter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +57,8 @@
 			children = (
 				41436C172B9FEE1300B7CAC1 /* DiceRollerApp.swift */,
 				41436C192B9FEE1300B7CAC1 /* ContentView.swift */,
+				41436C252B9FFF6A00B7CAC1 /* DiceRoll.swift */,
+				417FC6412BA127AD005FEE75 /* IntFloatConverter.swift */,
 				41436C1B2B9FEE1500B7CAC1 /* Assets.xcassets */,
 				41436C1D2B9FEE1500B7CAC1 /* Preview Content */,
 			);
@@ -138,7 +144,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				41436C1A2B9FEE1300B7CAC1 /* ContentView.swift in Sources */,
+				41436C262B9FFF6A00B7CAC1 /* DiceRoll.swift in Sources */,
 				41436C182B9FEE1300B7CAC1 /* DiceRollerApp.swift in Sources */,
+				417FC6422BA127AD005FEE75 /* IntFloatConverter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
